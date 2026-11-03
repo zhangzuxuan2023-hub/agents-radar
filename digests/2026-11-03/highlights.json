@@ -1,134 +1,150 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code v2.1.317 稳定版发布",
-      "OpenAI Codex rust-v0.167.0-alpha.4",
-      "Gemini CLI 夜间构建 v0.67.0-nightly",
-      "GitHub Copilot CLI v1.0.106-5 稳定版",
-      "OpenCode 尚未发布",
-      "Pi 工具在 CLI 领域崛起"
+      "八款AI命令行工具在代理功能之外还要应对可靠性债务",
+      "Copilot CLI发布四个构建；Claude Code v2.1.317发布",
+      "隐性Token成本回退侵蚀五款工具的信任",
+      "组织级产物治理成为竞争前沿",
+      "CLI与ACP/无头模式对等差距成主战场",
+      "会话持久性与上下文记账居投诉类别之首"
     ],
     "ai-agents": [
-      "OpenClaw v2026.10.10 发布并修复安全问题",
-      "OpenClaw 敏感数据脱敏功能增强",
-      "Codex 集成在 OpenClaw 中优化",
-      "OpenClaw 高严重性漏洞已分类",
-      "会话完整性问题正在审查",
-      "凭证处理漏洞已解决"
+      "OpenClaw活跃：24小时内触及391个议题、500个PR",
+      "OpenClaw v2026.10.10新增秘密脱敏Git备份",
+      "P0/P1崩溃循环与状态丢失缺陷阻碍OpenClaw发布",
+      "OpenClaw浏览器CDP结果中发现凭证泄露",
+      "tools.fs.workspaceOnly绕过被标记为安全问题",
+      "openclaw更新在2026.10.10因数据库锁定错误停滞"
     ],
     "ai-infra": [
-      "vLLM v0.33.0 GA 支持 MoE + Blackwell",
-      "SGLang v0.5.23 稳定版，扩展 NPU/ROCm",
-      "llama.cpp b12063 夜间版支持 Flash attention",
-      "Ollama v0.40.14-rc0 边缘预发布",
-      "LiteLLM 活跃度上升，聚焦 Rust 代理",
-      "vLLM 获 389 位贡献者超 900 次提交"
+      "推理引擎转向正确性而非新功能",
+      "批处理不变性问题#27433在vLLM引发104条评论",
+      "vLLM与LiteLLM推进Rust前端迁移",
+      "Blackwell SM120/GB10怪癖导致vLLM硬件回归",
+      "llama.cpp 24小时内发布10个滚动构建",
+      "LiteLLM从路由转向舰队控制平面"
     ],
     "ai-trending": [
-      "thedotmack/claude-mem 星标破 11 万",
-      "mem0ai/mem0 实现长期 AI 记忆",
-      "Claude-Code-Game-Studios 自动化开发流程",
-      "AnythingLLM：自托管智能体平台兴起",
-      "OpenWebUI 和 FreeToken 强调隐私",
-      "ollama/ollama 主导本地 LLM 运行器市场"
+      "代理记忆成新战场：claude-mem、mem0、cognee",
+      "colibri在普通硬件上运行前沿MoE模型",
+      "FreeToken将数据中心级服务带到桌面",
+      "Claude Code技能生态随ECC等爆发",
+      "vercel-labs/agent-desktop今日获2,275星",
+      "Karpathy nanochat：100美元能买的最佳ChatGPT，+321星"
     ],
     "ai-web": [
-      "Anthropic 'Vibe Physics' 论文两周完成",
-      "使用 Claude Opus 撰写完整物理论文",
-      "BootLoops 工具突出 AI 优势",
-      "麻省理工物理学家记录 AI 科研协作",
-      "OpenAI 发布 6 个新索引页，无内容",
-      "美国证监会加强对 Anthropic IPO 的审查"
+      "Anthropic推出FlashProve实现可证LLM推理",
+      "密码学证明被提为AI节奏基础设施",
+      "FlashProve由EPFL、MIT、StarkWare、Succinct共建",
+      "OpenAI今日更新未发布新内容",
+      "可证推理应对秘密模型替换信任缺口",
+      "Anthropic前沿红队牵头此项研究"
     ],
     "ai-hn": [
-      "LongCat-2.5：原生多模态智能体任务",
-      "Mistral Large 4 开源权重发布",
-      "Claude Code VS Code 插件漏洞引发信任危机",
-      "据报 Anthropic AI 成本超员工薪酬",
-      "Hacker News 讨论 AI 可持续性与治理",
-      "新模型发布推动智能体能力热潮"
+      "SEC应否阻止Anthropic IPO？264条评论热议",
+      "Claude Code VS Code后门帖保持1008分",
+      "Mistral Large 4开放权重以1,726分登顶",
+      "Anthropic内部AI token支出已超薪资",
+      "Anthropic增长放缓报告引发243条评论",
+      "开放模型经济与刻意降级主导讨论"
     ],
     "ai-ph": [
-      "ClawsGO Science 推出云实验室智能体",
-      "Riverside Agents 自动化视频制作",
-      "Modelpeers 支持用户社交关注 AI 模型",
-      "Click 提供通用 API 管理智能体",
-      "Fluent 2 与 Termy 引领本地优先趋势",
-      "AI 智能体正式登陆 Product Hunt"
+      "ClawsGO Science AI研究代理以279票领先",
+      "Riverside Agents自动化端到端视频制作",
+      "Modelpeers让用户像社交资料般关注AI模型",
+      "Click为任意LLM代理提供通用API",
+      "本地优先AI兴起：Fluent 2与Termy推隐私",
+      "AI代理作为一等公民主导今日发布"
+    ],
+    "ai-arxiv": [
+      "Pixel-UMI与Pixel将硬件与全身操作结合",
+      "代理系统主导机器人与企业任务",
+      "研究：Muon-AdamW差距随预训练规模逆转",
+      "跨框架测量MCP工具投毒",
+      "代理欺骗与有害成功基准出现",
+      "神经符号与物理信息混合方法持续受关注"
     ],
     "ai-community": [
-      "智能体记忆审计成关键议题",
-      "文档流水线中的提示注入风险",
-      "AI 代码审查或取代人工判断",
-      "Qwenputer 在语言模型内运行 RISC-V CPU",
-      "20 万 Token Claude 会话自我重购",
-      "调试智能体循环成为痛点"
+      "代理可靠性与循环检测主导Dev.to经验",
+      "自纠正代理把正确答案变成错误答案",
+      "常开AI监督倦怠被列为职业风险",
+      "Qwenputer在Qwen3.5内运行确定性RISC-V CPU",
+      "LLM被证明能原生读写神经网络权重",
+      "开发者视代理为需护栏的生产基础设施"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code v2.1.317 stable release",
-      "OpenAI Codex in rust-v0.167.0-alpha.4",
-      "Gemini CLI nightly build v0.67.0-nightly",
-      "GitHub Copilot CLI v1.0.106-5 stable",
-      "OpenCode no release yet",
-      "Pi tool gaining traction in CLI space"
+      "Eight AI CLI tools battle reliability debt alongside agent features",
+      "Copilot CLI ships four builds; Claude Code v2.1.317 released",
+      "Silent token-cost regressions erode trust across five tools",
+      "Org-level artifact governance emerges as competitive frontier",
+      "CLI-to-ACP/headless parity gap now the key battleground",
+      "Session durability and context accounting top complaint classes"
     ],
     "ai-agents": [
-      "OpenClaw v2026.10.10 released with security fixes",
-      "Backup redaction for sensitive data in OpenClaw",
-      "Codex integration improved in OpenClaw",
-      "High-severity bugs triaged in OpenClaw",
-      "Session integrity issues under active review",
-      "Credential handling vulnerabilities addressed"
+      "OpenClaw active: 391 issues, 500 PRs touched in 24 hours",
+      "OpenClaw v2026.10.10 adds secret-redacted Git backups",
+      "P0/P1 crash-loop and state-loss bugs block OpenClaw release",
+      "Credential leakage found in OpenClaw browser CDP results",
+      "tools.fs.workspaceOnly bypass flagged as security issue",
+      "openclaw update stalls on database-locked error in 2026.10.10"
     ],
     "ai-infra": [
-      "vLLM v0.33.0 GA with MoE + Blackwell support",
-      "SGLang v0.5.23 stable, NPU/ROCm expansion",
-      "llama.cpp b12063 nightly with Flash attention",
-      "Ollama v0.40.14-rc0 pre-release for edge",
-      "LiteLLM activity rising with Rust proxy focus",
-      "vLLM sees 900+ commits from 389 contributors"
+      "Serving engines pivot to correctness over new features",
+      "Batch-invariance issue #27433 draws 104 comments on vLLM",
+      "Rust frontend migrations underway at vLLM and LiteLLM",
+      "Blackwell SM120/GB10 quirks drive vLLM hardware regressions",
+      "llama.cpp ships 10 rolling builds in 24 hours",
+      "LiteLLM refocuses from routing to fleet control plane"
     ],
     "ai-trending": [
-      "thedotmack/claude-mem hits 110k+ stars",
-      "mem0ai/mem0 enables long-term AI memory",
-      "Claude-Code-Game-Studios automates dev workflows",
-      "AnythingLLM: self-hosted agent platform trend",
-      "OpenWebUI and FreeToken gain privacy appeal",
-      "ollama/ollama dominates local LLM runner space"
+      "Agent memory is the new battleground: claude-mem, mem0, cognee",
+      "colibri runs frontier MoE models on commodity hardware",
+      "FreeToken brings datacenter-scale serving to the desktop",
+      "Claude Code skills ecosystem explodes with ECC and more",
+      "vercel-labs/agent-desktop gains 2,275 stars today",
+      "Karpathy nanochat: best ChatGPT $100 can buy, +321 stars"
     ],
     "ai-web": [
-      "Anthropic’s 'Vibe Physics' paper completed in 2 weeks",
-      "Claude Opus used to draft full physics paper",
-      "BootLoops toolkit designed for AI strengths",
-      "MIT physicist documents AI scientific collaboration",
-      "OpenAI publishes 6 new index pages, no content",
-      "SEC IPO scrutiny intensifies around Anthropic"
+      "Anthropic unveils FlashProve for provable LLM inference",
+      "Cryptographic attestation pitched as AI pacing infrastructure",
+      "FlashProve built with EPFL, MIT, StarkWare, Succinct",
+      "OpenAI posts no new content in today's update",
+      "Provable inference tackles secret model-substitution trust gap",
+      "Anthropic Frontier Red Team leads the research effort"
     ],
     "ai-hn": [
-      "LongCat-2.5: native multimodal agentic tasks",
-      "Mistral Large 4 open-source weights released",
-      "Claude Code VS Code extension breach sparks distrust",
-      "AI costs reportedly exceed employee pay at Anthropic",
-      "Hacker News debates AI sustainability and governance",
-      "New model releases driving agentic capability hype"
+      "SEC should block Anthropic IPO? top debate at 264 comments",
+      "Claude Code VS Code backdoor story holds 1008 points",
+      "Mistral Large 4 open weights tops feed at 1,726 points",
+      "Anthropic internal AI token spend now exceeds payroll",
+      "Anthropic flattened growth report draws 243 comments",
+      "Open-model economics and deliberate downgrades dominate talk"
     ],
     "ai-ph": [
-      "ClawsGO Science launches with cloud lab agent",
-      "Riverside Agents automate video production",
-      "Modelpeers lets users follow AI models socially",
-      "Click offers universal API for managing agents",
-      "Fluent 2 and Termy lead local-first AI trend",
-      "AI agents now first-class citizens on Product Hunt"
+      "ClawsGO Science AI research agent leads with 279 votes",
+      "Riverside Agents automates end-to-end video production",
+      "Modelpeers lets users follow AI models like social profiles",
+      "Click offers universal API for agents across any LLM",
+      "Local-first AI rises: Fluent 2 and Termy push privacy",
+      "AI agents as first-class citizens dominates today's launches"
+    ],
+    "ai-arxiv": [
+      "Pixel-UMI and Pixel pair hardware with whole-body manipulation",
+      "Agentic systems dominate across robotics and enterprise tasks",
+      "Muon-AdamW gap reverses with pretraining scale, study finds",
+      "MCP tool-poisoning measured across frameworks",
+      "Agent deception and harmful-success benchmarks emerge",
+      "Neuro-symbolic and physics-informed hybrids keep gaining traction"
     ],
     "ai-community": [
-      "Agent memory auditing becomes critical topic",
-      "Prompt injection risks in document pipelines",
-      "AI code reviewer may replace human judgment",
-      "Qwenputer runs RISC-V CPU inside language model",
-      "200K-Token Claude session re-buys itself",
-      "Debugging agent loops is a growing pain point"
+      "Agent reliability and loop detection dominate Dev.to lessons",
+      "Self-correcting agent turned right answer into wrong one",
+      "Always-on AI supervision burnout flagged as career risk",
+      "Qwenputer runs deterministic RISC-V CPU inside Qwen3.5",
+      "LLMs shown natively reading and writing neural net weights",
+      "Devs treat agents as production infra needing guardrails"
     ]
   }
 }

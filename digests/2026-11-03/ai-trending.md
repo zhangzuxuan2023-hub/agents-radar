@@ -1,91 +1,101 @@
 # AI 开源趋势日报 2026-11-03
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-11-03 03:40 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-11-03 10:36 UTC
 
 ---
 
-# AI 开源趋势报告 – 2026-11-03
+# AI 开源趋势报告 — 2026-11-03
 
 ---
 
-## **步骤 1：筛选**  
-剔除非 AI 项目（如 Hyprland、T3Code、Scrapling，以及 PicoVoice 的本地推理功能但缺乏更广泛代理上下文）。仅保留具有明确 AI/ML 聚焦的项目：大语言模型（LLM）、智能体（agents）、检索增强生成（RAG）、向量数据库、智能体框架及模型基础设施。
+## 1. 今日亮点
+
+今日 GitHub AI 领域的焦点并非新模型，而是**智能体框架与上下文管理层**。最强烈的信号是智能体记忆/上下文基础设施：`thedotmack/claude-mem`、`mem0` 和 `cognee` 都指向持久化上下文这一新的战场。本地与高效推理持续升温，`FreeToken`、`colibri` 和 `nanochat` 正让数据中心级服务成为桌面现实。Claude Code / Codex 技能生态正在爆发（`ECC`、`mattpocock/skills`、`Claude-Code-Game-Studios`），表明社区如今交付的是*配置与编排*，而不仅仅是代码。最后，token 效率技巧（`heretic`、`caveman`、`headroom`）揭示出整个智能体栈对成本的意识正日趋成熟。
 
 ---
 
-## **步骤 2：分类**  
-根据项目主要功能进行分类。多类别项目按其主导用途列出。
+## 2. 分类热门项目
 
----
+### 🔧 AI 基础设施（框架、SDK、推理引擎、开发工具、CLI）
 
-## **1. 今日亮点**
-
-开源 AI 生态系统正迎来爆炸式增长，尤其是在**智能体持久化与记忆系统**领域，以 *thedotmack/claude-mem*（11 万+ 星标）和 *mem0ai/mem0* 为代表，实现了跨会话的长期上下文回溯——这对真实世界中智能体的自主性至关重要。与此同时，**原生支持智能体的工作流**如 *Donchitos/Claude-Code-Game-Studios* 与 *career-ops-hq/career-ops* 展示了特定领域的全栈自动化，标志着从孤立工具向集成式 AI 工作室的转变。**本地优先、自托管智能体平台**的兴起——如 *AnythingLLM*、*OpenWebUI* 与 *FreeToken*——反映出对隐私保护、成本可控的 AI 部署日益增长的需求。值得注意的是，*ollama/ollama* 与 *affaan-m/ECC* 持续主导智能体工具链领域，证明轻量级、可扩展的 CLI 架构已成为现代 AI 开发的基石。
-
----
-
-## **2. 各类别顶尖项目**
-
-### 🔧 AI 基础设施
-| 项目 | 语言 | 星标数（总计 / 今日） | 简述 |
+| 项目 | 语言 | 星标（总数 / 今日） | 简介 |
 | :--- | :--- | ---: | :--- |
-| [ollama/ollama](https://github.com/ollama/ollama) | Go | 185,728 | 领先的本地 LLM 运行器，可即时访问 Qwen、DeepSeek、Gemma 等模型。易用性推动其在开发团队中的广泛应用。 |
-| [FreeToken](https://github.com/FlashML-org/FreeToken) | Python | 653 | 将数据中心级模型服务引入桌面端——适合在本地运行大型模型，延迟极低。 |
-| [Kronos](https://github.com/shiyu-coder/Kronos) | Python | 857 | 针对金融市场语言优化的基础模型——体现垂直领域 LLM 的专业化趋势日益明显。 |
-| [JustVugg/colibri](https://github.com/JustVugg/colibri) | C | 675 | 通过零依赖、磁盘流式加载专家的方式，使前沿 MoE 模型可在消费级硬件上运行——对边缘 AI 至关重要。 |
+| [karpathy/nanochat](https://github.com/karpathy/nanochat) | Python | 0 (+321) | “100 美元能买到的最好的 ChatGPT”——来自 Karpathy 的极简教学型 LLM 训练/推理栈。对任何想端到端学习完整模型流水线的人都值得关注。 |
+| [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | Python | 0 (+653) | 将数据中心级模型服务带到桌面，实现大规模模型的本地运行。这是本地优先推理正日趋完善的有力信号。 |
+| [JustVugg/colibri](https://github.com/JustVugg/colibri) | C | 0 (+675) | 面向前沿 MoE 模型的分层推理引擎：热专家驻留 GPU，温专家驻留内存，冷专家从 NVMe 流式加载。以 C 编写，适配普通消费级硬件。 |
+| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Rust | 0 (+2,275) | 面向 AI 智能体的计算机使用 CLI。今日最热趋势仓库——凸显了赋予智能体真实桌面控制界面的爆炸性关注。 |
+| [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | Rust | 0 (+77) | 为并行 AI 智能体工作流设计的 Git worktree 管理 CLI。体量虽小，但瞄准了新兴的多智能体开发工作流。 |
+| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | Rust | 9,054 | 用 Rust 构建模块化、可扩展的 LLM 应用。延续了 Rust 在 AI 栈中的势头。 |
+| [netdata/netdata](https://github.com/netdata/netdata) | Go | 81,261 | AI 驱动的全栈可观测性，随着智能体基础设施监控的增长而愈发相关。 |
 
 ### 🤖 AI 智能体 / 工作流
-| 项目 | 语言 | 星标数（总计 / 今日） | 简述 |
-| :--- | :--- | ---: | :--- |
-| [NouResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Python | 259,916 | 持续演进的个人智能体，随用户行为不断成长——活跃社区信号表明其在自主智能体设计方面已取得显著进展。 |
-| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Python | 108,135 | 为 AI 智能体赋予“网络视觉”能力：可读取 Twitter、Reddit、GitHub、YouTube 等内容——仅需一个 CLI，无需 API 费用。对实时知识获取至关重要。 |
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | JavaScript | 79,624 | 完全开源的求职智能体，可定制简历、评估岗位、管理申请——证明 AI 可在高风险领域替代人工操作。 |
-| [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | Rust | 0 (+2,275 今日) | 新一代面向智能体的 CLI 接口——跻身热门趋势项目前列，表明终端驱动的智能体编排兴趣正在上升。 |
-| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Shell | 0 (+1,379 今日) | 将 Claude Code 转变为包含 49 个智能体与 72 种技能的完整游戏工作室——展示了大规模模块化、分层式智能体工作流设计。 |
 
-### 📦 AI 应用
-| 项目 | 语言 | 星标数（总计 / 今日） | 简述 |
+| 项目 | 语言 | 星标（总数 / 今日） | 简介 |
 | :--- | :--- | ---: | :--- |
-| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | Python | 67,467 | 基于 LLM 的多市场股票分析系统，支持自动预警与决策仪表板——显示 AI 驱动金融应用的快速增长。 |
-| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Python | 37,493 | “你的专属交易智能体”——结合情绪分析、新闻与技术指标，实现自主交易决策。 |
-| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Python | 72,672 | 将文档或主题一键转换为带动画、图表与语音旁白的原生 PowerPoint 演示文稿——内容创作者的巨大利器。 |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 137,599 | 利用 AI 工作流，基于关键词自动生成功能高清短视频——在社交媒体与营销领域具备极高传播潜力。 |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | JavaScript | 296,039 | 智能体框架性能优化系统——为 Claude Code、Codex、Cursor 等提供技能、本能、记忆与安全能力。庞大的星标数标志着框架调优浪潮。 |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Python | 260,045 | “与你共同成长的智能体”——一个通用可扩展智能体。智能体类别中的顶级势头信号。 |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Python | 108,243 | 让 AI 智能体拥有双眼，通过单一 CLI 读取/搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，零 API 费用。 |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | Python | 119,914 | 用于 AI 浏览器智能体的开源 Python 库及托管云服务。Web 智能体栈的支柱。 |
+| [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Shell | 0 (+1,379) | 将 Claude Code 变成完整的游戏开发工作室——49 个 AI 智能体、72 个工作流技能、协调系统。展示了技能编排这一元模式已走得多远。 |
+| [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit) | TypeScript | 38,487 | 智能体与生成式 UI 的前端栈，AG-UI 协议的缔造者。 |
+| [codewhale-hq/Codewhale](https://github.com/codewhale-hq/Codewhale) | Rust | 41,163 | 用 Rust 编写的开源终端智能体，不依赖特定提供商/模型。 |
 
-### 🧠 大语言模型 / 训练
-| 项目 | 语言 | 星标数（总计 / 今日） | 简述 |
-| :--- | :--- | ---: | :--- |
-| [open-compass/opencompass](https://github.com/open-compass/opencompass) | Python | 7,563 | 全面的 LLM 评测平台，支持 100+ 数据集与模型——包括 GPT-4、Claude 等专有模型。行业标准基准测试工具。 |
-| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | Python | 5,526 | 教授在 Apple Silicon 上部署 LLM 推理——非常适合系统工程师构建轻量、高效的推理流水线。 |
-| [llm-jp/awesome-japanese-llm](https://github.com/llm-jp/awesome-japanese-llm) | TypeScript | 1,444 | 日语 LLM 的精选列表——凸显开放 LLM 生态中区域化与语言多样性的持续增长。 |
+### 📦 AI 应用（具体应用、垂直解决方案）
 
-### 🔍 RAG / 知识库
-| 项目 | 语言 | 星标数（总计 / 今日） | 简述 |
+| 项目 | 语言 | 星标（总数 / 今日） | 简介 |
 | :--- | :--- | ---: | :--- |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | TypeScript | 110,889 | 持久化上下文引擎，压缩并注入智能体会话历史——现已成为最热门的 AI 项目之一。 |
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 93,386 | 原生智能体的 RAG 引擎演进为完整的上下文基础设施——支持动态、自适应的知识管理。 |
-| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Python | 78,678 | 在输入 LLM 前压缩工具输出与日志——可减少 60–95% 的 token 消耗，同时保持精度。对成本优化至关重要。 |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Python | 68,303 | 智能体的即插即用记忆层——支持持久化、生产级的上下文存储。长时运行智能体的关键支撑。 |
-| [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | Python | 86,801 | 专为 LLM 设计的网页爬虫——将任意网站转化为干净、可直接用于 LLM 的 Markdown 内容。支撑大规模 RAG 流水线。 |
+| [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos) | Python | 0 (+857) | “金融市场语言”的基础模型。垂直领域基础模型是一个值得注意的新兴方向。 |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Python | 137,875 | 通过自动化 AI 工作流，一键根据主题生成高清短视频。持续受欢迎的消费级 AI 应用。 |
+| [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | TypeScript | 0 (+412) | 人人都在用来在工作中管理智能体的开源应用——面向团队的智能体管理控制台。 |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | JavaScript | 79,689 | AI 求职智能体：扫描招聘板，根据你的简历为职位打分，定制简历。清晰的垂直智能体打法。 |
+| [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | Python | 72,873 | 将文档/主题转化为原生 PowerPoint 演示文稿，含图表、旁白与模板。 |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | Python | 67,489 | LLM 驱动的多市场股票分析，含仪表盘与定时运行。 |
+| [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Python | 37,525 | “你的个人交易智能体。”金融垂直智能体在榜单前列聚集。 |
+
+### 🧠 LLM / 训练（模型权重、训练框架、微调）
+
+| 项目 | 语言 | 星标（总数 / 今日） | 简介 |
+| :--- | :--- | ---: | :--- |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | Python | 168,485 | 用于 SOTA 文本/视觉/音频/多模态模型的模型定义框架。生态系统的常青骨干。 |
+| [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Jupyter | 107,734 | 在 PyTorch 中一步步构建类 ChatGPT 的 LLM。仍是权威学习资源。 |
+| [ollama/ollama](https://github.com/ollama/ollama) | Go | 185,764 | 本地运行 Kimi、GLM、MiniMax、DeepSeek、Qwen、Gemma 等模型。事实上的本地模型运行器。 |
+| [p-e-w/heretic](https://github.com/p-e-w/heretic) | Python | 0 (+420) | 免训练的 LM 修改：移除审查、抑制垃圾输出、减少谄媚。反映了对事后模型引导的兴趣。 |
+| [Picovoice/picollm](https://github.com/Picovoice/picollm) | Python | 318 | 由 X-bit 量化驱动的端侧 LLM 推理。边缘推理持续成熟。 |
+| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | Python | 5,530 | 在 Apple Silicon 上通过构建一个微型 vLLM + Qwen 学习 LLM 推理系统。 |
+| [open-compass/opencompass](https://github.com/open-compass/opencompass) | Python | 7,563 | 跨 100+ 数据集和众多提供商的 LLM 评测平台。 |
+
+### 🔍 RAG / 知识（向量数据库、RAG、知识管理）
+
+| 项目 | 语言 | 星标（总数 / 今日） | 简介 |
+| :--- | :--- | ---: | :--- |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | TypeScript | 111,233 (+1,803) | 为每个智能体提供跨会话的持久化上下文——捕获、AI 压缩并重新注入上下文。今日最具代表性的记忆项目，可跨 Claude Code、Codex、Gemini、Copilot 等使用。 |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Python | 141,484 | 通过确定性 AST 解析，将任意代码库/文档/SQL/PDF 转化为可查询的知识图谱，无需向量存储。值得注意的“无向量”RAG 方向。 |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | Python | 78,694 | 在送入 LLM 前压缩工具输出、日志和 RAG 分块（节省 20–95% token）。token 效率基础设施。 |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Python | 68,321 | AI 智能体的记忆层——面向生产环境的即插即用持久化上下文基础设施。 |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | Go | 93,418 | 智能体原生 RAG 引擎，已发展为上下文基础设施。 |
+| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | Python | 39,962 | “无向量”、基于推理的 RAG 文档索引。反向量存储趋势的又一实例。 |
+| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | Python | 13,760 | MLsys2026 最佳论文——为私密端侧 RAG 节省 97% 存储。 |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Python | 41,426 | 自我演进的上下文数据库，统一智能体记忆、知识 RAG 与技能。 |
 
 ---
 
-## **3. 趋势信号分析**
+## 3. 趋势信号分析
 
-今日数据揭示了一个**范式转变：从任务执行者转向持久、智能的 AI 智能体**——它们不仅是短期助手，更是具备记忆、上下文与持续演化行为的长期协作伙伴。*thedotmack/claude-mem*（11 万+ 星标）与 *mem0ai/mem0* 的爆发式增长表明，**上下文连续性**如今已成为智能体设计的顶级需求。这一趋势与近期发布的 LLM 所强调的多模态推理与扩展记忆能力（如 Claude 3.5、Gemini 1.5 Pro）高度契合，要求智能体能够长期保留并推理海量交互历史。
+今日的主导主题是**智能体上下文与记忆成为一等基础设施**。`claude-mem`（今日 +1,803）以及 `mem0`、`cognee`、`OpenViking` 和 `headroom` 组成的更广泛集群，显示出社区正从“构建智能体”迈向“让智能体记住并保持低成本”。第二个爆炸性类别是**智能体框架调优与技能**（`ECC` 达 296k 星标，`mattpocock/skills`、`Claude-Code-Game-Studios`），反映出 Claude Code / Codex / Cursor 如今已成为人们像写代码一样热衷配置的生态系统。
 
-一种新的**技术栈模式正在浮现**：*本地推理（Ollama、FreeToken）* + *持久记忆（Claude-Mem、Mem0）* + *智能体编排（LangChain、Agent-Reach）* + *RAG 流水线（Crawl4AI、RagFlow）*。这一组合可实现完全自主、私有化且可扩展的 AI 工作流——无需依赖云 API。
+一个真正的新方向是**“无向量”RAG**转向：`graphify`（知识图谱）和 `PageIndex`（基于推理的文档索引）明确拒绝向量存储，暗示对嵌入流水线的疲劳。与此同时，**token 效率技巧**（`heretic` 通过“穴居人”提示词削减 65% token，`headroom` 压缩）正将上下文视为稀缺预算。
 
-此外，**垂直领域专业化进程加速**：金融（*Kronos*、*Daily Stock Analysis*）、游戏（*Game Studios*）、内容创作（*MoneyPrinterTurbo*、*PPT Master*）等领域均显示开发者正超越通用工具，转向为特定行业量身打造的 AI 智能体。*Rust* 与 *C* 在核心基础设施中的崛起（如 *Colibri*、*Agent-Desktop*）也暗示开发者对性能与底层控制的渴求——这对实时、资源受限环境至关重要。
-
----
-
-## **4. 社区热点聚焦**
-
-- **[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)** – 智能体记忆的行业事实标准；任何严肃的智能体项目都必须集成。
-- **[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)** – 使智能体具备“网络视野”——实现实时、最新情报获取的必备组件；高度可扩展。
-- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** – 从 RAG 引擎演进为完整上下文基础设施——企业级知识系统的理想选择。
-- **[mem0ai/mem0](https://github.com/mem0ai/mem0)** – 生产就绪的记忆层，集成简单——开发者寻求持久智能体记忆的最佳选择。
-- **[affaan-m/ECC](https://github.com/affaan-m/ECC)** – 正在主流 AI CLI 中快速普及的智能体调度性能系统——对优化 token 使用与智能体速度至关重要。
+在技术栈方面，**Rust 和 C** 持续蚕食 AI 栈（`agent-desktop`、`colibri`、`rig`、`Codewhale`），出于性能和硬件效率的考量；而 `FreeToken`、`nanochat` 和 `picollm` 则推动**本地/边缘推理**浪潮。最后，**垂直基础模型**（面向金融的 `Kronos`）和**金融智能体集群**（`Vibe-Trading`、`daily_stock_analysis`）表明，领域特定 AI 是超越通用助手的下一个前沿。
 
 ---
-*本日报由 [agents-radar](https://github.com/duanyytop/agents-radar) 自动生成。*
+
+## 4. 社区热点
+
+- **智能体记忆与上下文层** — `claude-mem` 和 `mem0` 是添加持久化能力的最快途径；预计此处将快速标准化。([链接](https://github.com/thedotmack/claude-mem), [链接](https://github.com/mem0ai/mem0))
+- **无向量 RAG** — `graphify` 和 `PageIndex` 挑战默认的向量数据库假设；如果你正为嵌入成本/延迟而苦恼，值得一试。([链接](https://github.com/Graphify-Labs/graphify), [链接](https://github.com/VectifyAI/PageIndex))
+- **智能体框架优化 / 技能** — `ECC` 和 `Claude-Code-Game-Studios` 表明调优编码智能体这一元模式本身就自成一个产品类别。([链接](https://github.com/affaan-m/ECC), [链接](https://github.com/Donchitos/Claude-Code-Game-Studios))
+- **高效本地/MoE 推理** — `colibri` 和 `FreeToken` 将前沿级服务带到普通硬件；关注其生产采用情况。([链接](https://github.com/JustVugg/colibri), [链接](https://github.com/FlashML-org/FreeToken))
+- **token 效率工具** — `headroom` 和 `heretic` 直面上下文成本，这一务实趋势对智能体构建者有立竿见影的 ROI。([链接](https://github.com/headroomlabs-ai/headroom), [链接](https://github.com/p-e-w/heretic))
+
+---
+*本日报由 [agents-radar](https://github.com/zhangzuxuan2023-hub/agents-radar) 自动生成。*
