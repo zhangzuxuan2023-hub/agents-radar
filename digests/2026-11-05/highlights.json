@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "生态从智能体能力转向信任与恢复",
+      "Codex破坏性systemd bug引发沙箱可靠性担忧",
+      "Gemini CLI新增破坏性git防护栏",
+      "Windows bug密度在Codex、Copilot、OpenCode、Pi中偏高",
+      "OpenCode与Pi进行状态机重构",
+      "ACP与SDK无头集成成为前沿"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.5-beta.1，含Knowledge Scribes",
+      "PostgreSQL后端状态平面释放企业持久化信号",
+      "OpenClaw24小时内记录500个PR和387个issue",
+      "194个PR已合并/关闭，维护债务仍在增长",
+      "P0网关事件循环阻塞持续6-9周",
+      "堆/RSS失控与提示缓存回归仍未解决"
+    ],
+    "ai-infra": [
+      "vLLM与SGLang进入加固阶段，无新版本发布",
+      "P/D分离中跨请求KV污染严重",
+      "llama.cpp发布v0.9.0，含flash_attn_ext_rows与FP8 E4M3",
+      "vLLM v0.32.0因三重回归被标记为高风险",
+      "LiteLLM聚焦计费与流式正确性",
+      "Unsloth新增CUDA图解码加速"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-desktop今日新增+2,463星",
+      "NVIDIA/auto-ontology单日新增+2,053星",
+      "claude-mem持久记忆在GitHub趋势榜飙升",
+      "RAG演变为上下文工程与图索引",
+      "kimi-k3-in-c声称2.78T参数运行于8.24 GB RAM",
+      "智能体基础设施而非基础模型主导今日"
+    ],
+    "ai-web": [
+      "Anthropic推出FlashProve密码学推理验证",
+      "OpenAI任命Jill Hazelbaker为首席企业事务官",
+      "OpenAI宣布收购Pierre",
+      "OpenAI暗示Daybreak Red AWS GovCloud部署",
+      "OpenAI发布安全文章A Thousand Fewer Paths to Root",
+      "Anthropic做信任研究，OpenAI做战略"
+    ],
+    "ai-hn": [
+      "Postman静默安装AI插件并共享API数据（1,484）",
+      "Google威胁对拒绝AI的学校禁用搜索",
+      "Nvidia固件将Linux推理限速至35%",
+      "大厂隐性AI债务半年激增90%至3.2万亿美元",
+      "Anthropic可证明推理引HN怀疑关注",
+      "腾讯Hy4发布引发西方基准对比"
+    ],
+    "ai-arxiv": [
+      "上下文压缩以极低成本达到长上下文效果",
+      "ARLoop开放循环Transformer高效扩展深度",
+      "亚1比特KV缓存量化论文出现",
+      "MDSKILL蒸馏智能体技能记忆以自我进化",
+      "论文探究对失准行为的持久抑制",
+      "交替镜像下降的新对数遗憾结果"
+    ],
+    "ai-community": [
+      "AI账单涨4倍却无每步归因",
+      "GPT Image 2.5：质量旋钮比4K更贵",
+      "Qwen权重编辑削减Astra思考循环",
+      "LLM原生读写权重引爆Lobste.rs",
+      "非确定性实验颠覆智能体结论",
+      "开发者主张人类与确定性代码入环"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem shifts from agent capability to trust and recovery",
+      "Codex destructive systemd bug sparks sandbox reliability fears",
+      "Gemini CLI adds destructive-git guardrails",
+      "Windows bug density high across Codex, Copilot, OpenCode, Pi",
+      "OpenCode and Pi undergo state-machine refactors",
+      "ACP and SDK headless integration emerge as frontier"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.11.5-beta.1 with Knowledge Scribes",
+      "PostgreSQL-backed state plane signals enterprise persistence push",
+      "OpenClaw logs 500 PRs and 387 issues in 24 hours",
+      "194 PRs merged/closed; maintenance debt still growing",
+      "P0 gateway event-loop blocking persists 6-9 weeks",
+      "Heap/RSS runaway and prompt-cache regression remain open"
+    ],
+    "ai-infra": [
+      "vLLM and SGLang enter hardening phase with no releases",
+      "CRITICAL cross-request KV contamination in P/D disaggregation",
+      "llama.cpp ships v0.9.0 with flash_attn_ext_rows and FP8 E4M3",
+      "vLLM v0.32.0 flagged risky over regression trio",
+      "LiteLLM targets billing and streaming correctness",
+      "Unsloth adds CUDA-graph decode acceleration"
+    ],
+    "ai-trending": [
+      "vercel-labs/agent-desktop gains +2,463 stars today",
+      "NVIDIA/auto-ontology adds +2,053 stars in a day",
+      "claude-mem persistent memory surges on GitHub trending",
+      "RAG mutates into context engineering and graph indexing",
+      "kimi-k3-in-c claims 2.78T params in 8.24 GB RAM",
+      "Agent infrastructure, not base models, dominates today"
+    ],
+    "ai-web": [
+      "Anthropic unveils FlashProve cryptographic inference verification",
+      "OpenAI names Jill Hazelbaker Chief Corporate Affairs Officer",
+      "OpenAI announces acquisition of Pierre",
+      "OpenAI signals Daybreak Red AWS GovCloud deployment",
+      "OpenAI publishes security piece A Thousand Fewer Paths to Root",
+      "Anthropic does trust research while OpenAI does strategy"
+    ],
+    "ai-hn": [
+      "Postman silently installs AI plugins, shares API data (1,484)",
+      "Google threatens to disable Search for schools rejecting AI",
+      "Nvidia firmware throttles Linux inference to 35%",
+      "Big-tech hidden AI debt surges 90% to $3.2T in six months",
+      "Anthropic provable inference draws skeptical HN interest",
+      "Tencent Hy4 release prompts Western benchmark comparisons"
+    ],
+    "ai-arxiv": [
+      "Context compaction matches long-context at fraction of cost",
+      "ARLoop open looped transformers scale depth efficiently",
+      "Sub-1-bit KV cache quantization papers arrive",
+      "MDSKILL distills agent skill memory for self-evolution",
+      "Papers probe durable suppression of misaligned behaviors",
+      "New logarithmic regret result for alternating mirror descent"
+    ],
+    "ai-community": [
+      "Your AI bill grew 4x with no per-step attribution",
+      "GPT Image 2.5: quality knob costs more than 4K",
+      "Qwen weight editing cuts Astra thinking loops",
+      "LLMs natively reading and writing weights buzz Lobste.rs",
+      "Non-deterministic experiments flip agent conclusions",
+      "Devs argue for humans and deterministic code in loop"
+    ]
+  }
+}
