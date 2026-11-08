@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "7款AI CLI工具均无稳定版",
+      "MCP生命周期缺陷困扰所有工具",
+      "上下文压缩数据丢失成主要故障",
+      "Gemini CLI与Qwen Code强化供应链安全",
+      "自动更新回归破坏正常流程",
+      "多账户摩擦成关键差异点"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.11.2隐私信任补丁",
+      "OpenClaw积压变动：333开启对167关闭PR",
+      "SQLite争用阻塞OpenClaw网关事件循环",
+      "P0更新器缺陷阻碍2026.10.10修复",
+      "许多关闭的OpenClaw问题仅为陈旧清理",
+      "OpenClaw内存增长仍是长期问题"
+    ],
+    "ai-infra": [
+      "Blackwell/SM120 GPU支持仍不稳定",
+      "SGLang发现两个静默垃圾MoE路由缺陷",
+      "vLLM SM120+NVFP4+MTP遇非法内存访问",
+      "AMD/ROCm投入在vLLM与SGLang加速",
+      "LiteLLM计费缺陷已比肩路由问题",
+      "llama.cpp与Ollama趋同于推测解码"
+    ],
+    "ai-trending": [
+      "Vercel agent-browser单日增812星",
+      "Meta astryx'agent-ready'设计系统增863星",
+      "上下文经济学推动十亿上下文与caveman",
+      "Anthropic技能库统一代理技能格式",
+      "代理框架（ECC、hermes-agent）涌入趋势",
+      "NVIDIA nvke带来裸金属GPU Kubernetes"
+    ],
+    "ai-web": [
+      "Anthropic发布AI-for-Science受助者研究",
+      "AI现助约束、构建与解释科学模型",
+      "ELLIS Tübingen作者分享神经科学示例",
+      "Anthropic科学受助计划首个公开成果",
+      "OpenAI本期发布零篇新文章",
+      "产品静默日；转向科学生态定位"
+    ],
+    "ai-hn": [
+      "高盛据报撤下Claude Code",
+      "Claude Code密钥泄露引发隐私反弹",
+      "'再见Claude，你好Pi'倒戈帖走红",
+      "OpenAI 1.25万亿美元融资主导金钱讨论",
+      "MaxxBench挑战编码代理基准膨胀",
+      "微软研究院关闭AI Frontiers团队"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B登顶：19,410赞、770万下载",
+      "LTX-2.5是突破性视频生成发布",
+      "Meta SAM 3分割模型获6,104赞",
+      "DeepSeek-V4.1-Flash与Mistral 1T推进前沿",
+      "Qwen3.8催生异端与GGUF微调潮",
+      "ComfyUI单文件扩散模型走红"
+    ],
+    "ai-community": [
+      "'小心'提示显示0%弃权率",
+      "良性注入在594条评论中扭曲AI判断",
+      "代理的负记忆与后见层",
+      "PDF中隐藏提示注入重现",
+      "LLM原生读写模型权重",
+      "Firecracker VM逃逸引发安全担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "No stable releases across all 7 AI CLI tools",
+      "MCP lifecycle bugs plague every tool",
+      "Context-compaction data loss is a top failure mode",
+      "Gemini CLI and Qwen Code harden supply chain security",
+      "Auto-update regressions breaking working workflows",
+      "Multi-account friction is now a key differentiator"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.11.2 privacy/trust patch",
+      "OpenClaw backlog churns: 333 open vs 167 closed PRs",
+      "SQLite contention stalls OpenClaw gateway event loop",
+      "P0 updater bug blocks reaching fix from 2026.10.10",
+      "Many closed OpenClaw issues are just stale cleanup",
+      "OpenClaw memory growth remains a long-lived issue"
+    ],
+    "ai-infra": [
+      "Blackwell/SM120 GPU enablement still rocky",
+      "SGLang finds two silent-garbage MoE router bugs",
+      "vLLM SM120+NVFP4+MTP hits illegal memory access",
+      "AMD/ROCm investment ramps across vLLM and SGLang",
+      "LiteLLM spend-accounting bugs now rival routing",
+      "llama.cpp and Ollama converge on speculative decoding"
+    ],
+    "ai-trending": [
+      "Vercel agent-browser gains 812 stars in one day",
+      "Meta astryx 'agent-ready' design system adds 863 stars",
+      "Context economics drives billion-context and caveman",
+      "Anthropic skills repo standardizes agent skill formats",
+      "Agent harnesses (ECC, hermes-agent) flood trending",
+      "NVIDIA nvke brings bare-metal GPU Kubernetes"
+    ],
+    "ai-web": [
+      "Anthropic posts AI-for-Science grantee guest research",
+      "AI now helps constrain, build, interpret science models",
+      "ELLIS Tübingen authors share neuroscience examples",
+      "First public output from Anthropic science grantee program",
+      "OpenAI published zero new articles this window",
+      "Quiet product day; science-ecosystem positioning instead"
+    ],
+    "ai-hn": [
+      "Goldman Sachs reportedly pulls Claude Code",
+      "Claude Code secrets leak sparks privacy backlash",
+      "'Goodbye Claude, hello Pi' defection post trends",
+      "OpenAI's $1.25T raise dominates money discussion",
+      "MaxxBench challenges coding-agent benchmark inflation",
+      "Microsoft Research shuttering AI Frontiers group"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops board: 19,410 likes, 7.7M downloads",
+      "LTX-2.5 is the breakout video-gen release",
+      "Meta SAM 3 hits 6,104 likes for segmentation",
+      "DeepSeek-V4.1-Flash and Mistral 1T push frontier",
+      "Qwen3.8 spawns wave of heretic and GGUF fine-tunes",
+      "ComfyUI single-file diffusion models trend"
+    ],
+    "ai-community": [
+      "'Be careful' prompts show 0% abstention rate",
+      "Benign injection bends AI judgment across 594 reviews",
+      "Negative memory and hindsight layers for agents",
+      "Prompt injection hidden in PDFs resurfaces",
+      "LLMs natively reading and writing model weights",
+      "Firecracker VM escape raises security concerns"
+    ]
+  }
+}
