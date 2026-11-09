@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "可靠性与成本信任已胜过原始能力",
+      "配额核算与静默失败主导讨论",
+      "Claude Code v2.1.321、Copilot CLI v1.0.109-0、Qwen Code v0.27.1 发布",
+      "子代理与压缩正确性是最弱环节",
+      "审批入口扩展至手机、手表、任务栏、OSC 7501",
+      "审批与可观测性已超越桌面"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时内处理 500 个 issue 和 500 个 PR",
+      "关闭 208 个 issue，合并或关闭 131 个 PR",
+      "Windows 启动与会话卡死是持续 P0/P1 缺陷",
+      "更新/重启子系统被标为当前薄弱点",
+      "Kubernetes 文件系统修复关闭一个 P1 issue",
+      "删除的交接数据库阻碍包恢复（P0，已修复）"
+    ],
+    "ai-infra": [
+      "Blackwell SM120/GB10 主导 vLLM 与 SGLang 带宽",
+      "静默空补全与内核损坏导致服务回退",
+      "推测解码成默认手段，引发性能回退",
+      "LiteLLM 原生修复预算/限流绕过漏洞",
+      "vLLM、SGLang、Unsloth 24 小时内无发布",
+      "本地层碎片化于 Metal、Vulkan、SYCL、ROCm"
+    ],
+    "ai-trending": [
+      "Anthropic skills 仓库单日新增 1,052 星",
+      "Vercel Labs 的 Rust 版 agent-browser 趋势 +914",
+      "Meta astryx 设计系统星标飙升 +3,324",
+      "Token 压缩与上下文方案聚集 RAG 集群",
+      "caveman 靠降级文风宣称节省 65% token",
+      "代理工具层领先于模型发布"
+    ],
+    "ai-web": [
+      "Anthropic 宣传 FlashProve 加密推理验证",
+      "研究路线：证明回答来自所声称的模型",
+      "Frontier Red Team 构建形式化验证研究线",
+      "OpenAI 在 AWS Marketplace 上线 ChatGPT Enterprise",
+      "OpenAI“Control Room”条目无正文",
+      "OpenAI 转向企业分发，内容量低"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 以 65 分登顶 Artificial Analysis",
+      "据报道高盛向银行家撤下 Claude Code",
+      "权限流程将密码泄露至 1,122 个 GitHub 文件",
+      "Meta 推出轻量 Muse Ember 代理模型",
+      "谷歌发布 TPU 8tx/8i Max",
+      "隐私担忧：Gemini 将 Drive/邮件路由给标注员"
+    ],
+    "ai-community": [
+      "提示注入被定性为授权问题而非过滤问题",
+      "代理沙箱（unshare -n、Firecracker）被认为有漏洞",
+      "热帖追问 AI 取代开发者后会发生什么",
+      "秒表显示开发者用 AI 反而慢 19%",
+      "据称小模型在调试上胜过大型模型",
+      "代理式代码生成留下费解的“影子积压”"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Reliability and cost trust now outweigh raw capability",
+      "Quota accounting and silent failures top engagement threads",
+      "Claude Code v2.1.321, Copilot CLI v1.0.109-0, Qwen Code v0.27.1 ship",
+      "Subagent and compaction correctness is weakest agentic link",
+      "Approval surfaces expand to phone, watch, taskbar, OSC 7501",
+      "Approval and observability now reach beyond the desktop"
+    ],
+    "ai-agents": [
+      "OpenClaw handles 500 issues and 500 PRs in 24 hours",
+      "208 issues closed, 131 PRs merged or closed",
+      "Windows startup and session wedging are persistent P0/P1 defects",
+      "Update/restart subsystem flagged as current weak point",
+      "Kubernetes filesystem fix closes a P1 issue",
+      "Deleted handoff DB blocked package recovery (P0, fixed)"
+    ],
+    "ai-infra": [
+      "Blackwell SM120/GB10 dominates vLLM and SGLang bandwidth",
+      "Silent empty completions and kernel corruption regress serving",
+      "Speculative decoding now default lever, drives regressions",
+      "LiteLLM closes budget/rate-limit bypass bugs natively",
+      "No releases from vLLM, SGLang, or Unsloth in 24h",
+      "Local tier fragments across Metal, Vulkan, SYCL, ROCm"
+    ],
+    "ai-trending": [
+      "Anthropic skills repo gains 1,052 stars in a day",
+      "Vercel Labs agent-browser in Rust trends +914",
+      "Meta astryx design system spikes +3,324 stars",
+      "Token-compression and context plays crowd RAG cluster",
+      "caveman touts 65% token savings by degrading prose",
+      "Agent tooling layer leads over model releases"
+    ],
+    "ai-web": [
+      "Anthropic touts FlashProve cryptographic inference verification",
+      "Research line: proving responses came from claimed model",
+      "Frontier Red Team builds formal-verification research arc",
+      "OpenAI posts ChatGPT Enterprise listing on AWS Marketplace",
+      "OpenAI 'Control Room' entry has no article text",
+      "OpenAI moves on enterprise distribution, low content volume"
+    ],
+    "ai-hn": [
+      "Claude Fable 5.2 tops Artificial Analysis at 65",
+      "Goldman Sachs reportedly pulls Claude Code from bankers",
+      "Permission flow leaked passwords into 1,122 GitHub files",
+      "Meta debuts lightweight Muse Ember agent model",
+      "Google announces TPU 8tx/8i Max",
+      "Privacy worries: Gemini routes Drive/email to annotators"
+    ],
+    "ai-community": [
+      "Prompt injection framed as authorization problem, not filtering",
+      "Agent sandboxes (unshare -n, Firecracker) seen as porous",
+      "Top post asks what comes after AI replaces devs",
+      "Stopwatch shows developers 19% slower with AI",
+      "Small model reportedly beats big one at debugging",
+      "Agentic codegen leaves a puzzling 'shadow backlog'"
+    ]
+  }
+}
