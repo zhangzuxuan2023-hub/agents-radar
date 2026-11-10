@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "7款追踪的AI CLI工具均在24小时内发布新版本",
+      "Windows稳定性与MCP/OAuth缺陷主导问题追踪",
+      "Qwen Code与Gemini CLI遭破坏性命令绕过",
+      "Codex以明文存储密钥，报告指出",
+      "社区在CLI之上构建钩子与回归运行器",
+      "Claude Code警示服务端指令注入风险"
+    ],
+    "ai-agents": [
+      "OpenClaw：24小时内287个问题和500个PR",
+      "OpenClaw v2026.11.3隐藏私有子代理结果",
+      "双轨支持让已退役2026.9线继续存活",
+      "父子子代理交接修复随补丁发布",
+      "PR积压增长：342个待处理对158个已合并",
+      "会话状态与升级失败居评论最多问题之首"
+    ],
+    "ai-infra": [
+      "无重大功能发布；回归修复占主导",
+      "vLLM结构化输出解码回归被标记",
+      "AMD/ROCm是各项目新增工作的最大方向",
+      "推测解码：最强提速手段也是最大风险",
+      "LiteLLM在供应链事件后新增cosign签名LTS",
+      "llama.cpp发布b12262；重构破坏树外用户"
+    ],
+    "ai-trending": [
+      "Anthropic技能库今日新增1,676星",
+      "meta/astryx以3,111星领跑新项目",
+      "Vercel agent-browser以Rust亮相，+775星",
+      "Matt Pocock技能库新增1,223星",
+      "记忆/上下文压缩工具在趋势榜激增",
+      "Agent Skills正凝聚为共享开放格式"
+    ],
+    "ai-web": [
+      "Anthropic以ANT在纳斯达克启动IPO路演",
+      "发行8.25亿股，每股70至78美元",
+      "Claude Fable 5.2设计与原型硬件",
+      "OpenAI发布8篇商业与教育新文章",
+      "OpenAI内容仅元数据，不可分析",
+      "Anthropic释放资本市场成熟信号"
+    ],
+    "ai-hn": [
+      "Claude Fable/Mythos 5.2帖获993条评论",
+      "高盛撤下银行家的Claude Code",
+      "报道：Gemini将Drive文件发给人工标注员",
+      "“AI使用产生脆弱代码库”获374条评论",
+      "Fable 5.2在Artificial Analysis得65分",
+      "IPO估值质疑与上市热情并存"
+    ],
+    "ai-arxiv": [
+      "智能体系统主导应用AI投稿",
+      "论文通过人格泛化预测失准",
+      "柏拉图表征假说再遭质疑",
+      "FP4预训练的隐藏成本受审视",
+      "智能体工作流编排基准首次亮相",
+      "子群泛化与尾部风险认证"
+    ],
+    "ai-community": [
+      "Bifrost对LiteLLM 7倍基准声明被核查",
+      "代理门禁橡皮图章式批准的警示故事",
+      "PDF中隐藏提示注入再度浮现",
+      "Firecracker VM逃逸引发安全担忧",
+      "代理配置被当作未版本化依赖",
+      "本地token/秒基准从未与声明相符"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "All 7 tracked AI CLI tools shipped releases in 24h",
+      "Windows stability and MCP/OAuth bugs dominate issue trackers",
+      "Qwen Code and Gemini CLI hit by destructive-command bypasses",
+      "Codex persists secrets in plaintext, report flags",
+      "Community builds hooks and regression runners atop CLIs",
+      "Claude Code flags server-side instruction injection risk"
+    ],
+    "ai-agents": [
+      "OpenClaw: 287 issues and 500 PRs in 24 hours",
+      "OpenClaw v2026.11.3 hides private subagent results",
+      "Dual-track support keeps retired 2026.9 line alive",
+      "Parent/child subagent handoff fix ships in patch",
+      "PR backlog grows: 342 open vs 158 merged",
+      "Session-state and upgrade failures top commented issues"
+    ],
+    "ai-infra": [
+      "No major feature releases; regression fixes dominate",
+      "vLLM structured-output decode regression flagged",
+      "AMD/ROCm is largest axis of new work across projects",
+      "Speculative decoding: top speed lever and top risk",
+      "LiteLLM adds cosign-signed LTS after supply-chain incident",
+      "llama.cpp ships b12262; refactor breaks out-of-tree users"
+    ],
+    "ai-trending": [
+      "Anthropic skills repo gains 1,676 stars today",
+      "meta/astryx tops newcomers with 3,111 stars",
+      "Vercel agent-browser debuts at +775 stars in Rust",
+      "Matt Pocock skill library adds 1,223 stars",
+      "Memory/context-compression tools surge on trending",
+      "Agent Skills crystallizing into shared open format"
+    ],
+    "ai-web": [
+      "Anthropic launches IPO roadshow on Nasdaq as ANT",
+      "Offering 825M shares at $70-$78 per share",
+      "Claude Fable 5.2 designs and prototypes hardware",
+      "OpenAI posts 8 new business and education articles",
+      "OpenAI content metadata-only, not analyzable",
+      "Anthropic signals capital-markets maturity"
+    ],
+    "ai-hn": [
+      "Claude Fable/Mythos 5.2 thread draws 993 comments",
+      "Goldman Sachs pulls Claude Code from bankers",
+      "Report: Gemini sends Drive files to human annotators",
+      "'AI usage generates fragile codebase' racks up 374 comments",
+      "Fable 5.2 scores 65 on Artificial Analysis",
+      "IPO valuation skepticism meets launch excitement"
+    ],
+    "ai-arxiv": [
+      "Agentic systems dominate applied AI submissions",
+      "Paper predicts misalignment via persona generalization",
+      "Platonic Representation Hypothesis questioned anew",
+      "FP4 pretraining's hidden costs examined",
+      "Workflow orchestration benchmarks for agents debut",
+      "Subpopulation generalization and tail-risk certification"
+    ],
+    "ai-community": [
+      "Bifrost vs LiteLLM 7x benchmark claims fact-checked",
+      "Agent gate rubber-stamping cautionary tale shared",
+      "Prompt injections hidden in PDFs surface again",
+      "Firecracker VM escape raises security concerns",
+      "Agent configs treated as unversioned dependencies",
+      "Local tokens/sec benchmarks never match claims"
+    ]
+  }
+}
